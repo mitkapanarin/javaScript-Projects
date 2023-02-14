@@ -24,3 +24,9 @@ body {
     background-color: #ffffff;
     
 }
+
+.card{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
