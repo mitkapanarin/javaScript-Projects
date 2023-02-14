@@ -8,25 +8,39 @@ body {
 }
 
 #header {
-    width: 350px;
-    height: 400px;
-    background-color: #f7e1e1;
-    border-radius: 10px;
     padding: 20px;
-    /* overflow-y: scroll; */
     display: flex;
+    align-items: center;
     gap: 30px;
     text-align: center;
-    cursor: pointer;
 }
 
 #app {
-    background-color: #ffffff;
-    
+    background-color: #f0e1e1;
+    width: 350px;
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.bi{
+    cursor: pointer;
 }
 
 .card{
     display: flex;
     flex-direction: row;
     gap: 10px;
+    margin: 20px 0 20px 20px;
+    width: 300px;
+}
+
+.left{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.right{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 13px;
 }

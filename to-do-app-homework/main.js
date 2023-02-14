@@ -45,7 +45,6 @@ console.log(data)
 const printResult = () => {
   const resultCard = data
     .map((item) => {
-      // checked="${item.status? true: false}"
       return `
       <div class="form-check task">
         <input class="form-check-input" type="checkbox"  id="flexCheck">
