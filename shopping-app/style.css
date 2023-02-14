@@ -1,0 +1,26 @@
+body {
+    background-color: #b3eeda;
+    min-height: 100vh;
+    display: grid;
+    /* place-content: center; */
+    padding: 30px;
+
+}
+
+#header {
+    width: 350px;
+    height: 400px;
+    background-color: #f7e1e1;
+    border-radius: 10px;
+    padding: 20px;
+    /* overflow-y: scroll; */
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#app {
+    background-color: #ffffff;
+    
+}
