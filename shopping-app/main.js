@@ -44,4 +44,3 @@ const allProducts = () => {
 };
 
 console.log(allProducts);
-allProducts();
