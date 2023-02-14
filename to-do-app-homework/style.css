@@ -1,0 +1,52 @@
+body{
+    background-color: #AEE2FF;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    padding: 30px;
+  
+  }
+  
+  #app{
+    width: 350px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    overflow-y: scroll;
+  }
+
+  #app::-webkit-scrollbar{
+    width: 0;
+  }
+  
+  .form-check{
+    padding-left: 0;
+  }
+  
+  #tasks{
+    margin-top: 10px;
+  }
+  
+  .task{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #AEE2FF;
+    border-radius: 6px;
+  }
+
+  .form-check-input{
+    display: none;
+  }
+
+  .options{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  #msg{
+    color: red;
+  }

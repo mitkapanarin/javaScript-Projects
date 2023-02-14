@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.dropdown {
+  background-color: #6249e3;
+  height: 260px;
+  width: 100%;
+  padding-bottom: 60px;
+  justify-content: space-around;
+  color: white;
+  display: flex;
+}
+
+.projects {
+  position: relative;
+}
+
+.projects ul {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  width: 120px;
+  height: 70px;
+  background: white;
+  left: 0px;
+  list-style: none;
+  border-radius: 5px;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-10px);
+  transition: all 0.4s ease;
+}
+
+.projects li {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects li:hover {
+  background-color: #6249e3;
+}
+
+.projects a {
+  color: black;
+  text-decoration: none;
+}
+
+.projects button {
+    margin-top: 20px;
+}
+
+.projects p {
+  margin-top: 20px;
+}
+
+.projects-right i {
+    margin-top: 20px;
+    margin-bottom: 130px;
+}
+
+.dropdown button {
+  background: none;
+  text-decoration: none;
+  border: none;
+  color: rgb(21, 21, 21);
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.projects button:focus + ul {
+  opacity: 1;
+  pointer-events: all;
+  transform: translateY(0px);
+}
+
+.container {
+   display: inline-block;
+    white-space: nowrap;
+  }
+  
+  .input-checkbox {
+    float: right;
+    margin-right: 50px;
+  }

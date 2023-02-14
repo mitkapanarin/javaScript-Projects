@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+  }
+
+  #app{
+    border: 2px solid black;
+    width: 350px;
+    height: 650px;
+    /* border rad,  */
+    padding: 20px;
+  }
+
+  .card-parent{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* gap */
+    gap: 20px
+  }
+
+  [class ^="card-"]{
+    border: 2px solid gray;
+  }
+
+
+  .xyz{
+    font-size: 40px;
+  }

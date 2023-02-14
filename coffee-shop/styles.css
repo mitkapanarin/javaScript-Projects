@@ -1,0 +1,18 @@
+#results {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+}
+
+
+.image{
+  height: 180px;
+  object-fit: cover;
+}
+
+@media (max-width: 1000px){
+  #results {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

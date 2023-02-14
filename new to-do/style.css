@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.header{
+    height: auto;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+
+
+.firstTask {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#user_input{
+    width: 95%;
+    padding: 10px;
+    border: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#myUL {
+    margin-left: 60px;
+    display: grid;
+    text-decoration: none;
+}
+
+.myLI{
+    gap: 10px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}

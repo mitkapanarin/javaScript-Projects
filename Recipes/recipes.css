@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about {
+    background-color: #EAFFF0;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 40px;
+}
+
+.img-1 {
+    height: 210px;
+    width: 400px;
+    padding-left: 40px;
+}
+
+.card-title{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+#results {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+
+  .image{
+    object-fit: cover;
+    height: 220px
+  }

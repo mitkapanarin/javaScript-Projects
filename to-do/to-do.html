@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="dropdown">
+      <div class="projects">
+        <button>Days of the week</button>
+        <ul>
+          <li><a href="#">Monday</a></li>
+          <li><a href="#">Tuesday</a></li>
+          <li><a href="#">Wednesday</a></li>
+          <li><a href="#">Thursday</a></li>
+          <li><a href="#">Friday</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="form-group">
+      <p>
+        Things that should be done for today<span class="clue"
+          >(Check all that apply)</span
+        >
+      </p>
+      <div id="display_lists"></div>
+    </div>
+
+    <form class="form-group" id="form">
+      <p>Any plans for tommorow :)</p>
+      <textarea
+        id="comments"
+        class="input-textarea"
+        name="comment"
+        placeholder="Enter your suggestion here..."
+      ></textarea>
+      <button type="submit">Post</button>
+    </form>
+  </body>
+  <script src="main.js"></script>
+</html>
