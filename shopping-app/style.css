@@ -26,7 +26,7 @@ body {
     cursor: pointer;
 }
 
-.card{
+.content{
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -43,4 +43,11 @@ body {
     margin-left: 20px;
     margin-top: 10px;
     font-size: 13px;
+}
+
+.buttons{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    margin-right: 10px;
 }
